@@ -1,0 +1,100 @@
+/* Sticky sidebar container */
+.sticky-icon {
+  z-index: 1;
+  position: fixed;
+  top: 35%;
+  right: 0;
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Styling for each link in the sidebar */
+.sticky-icon a {
+  transform: translateX(160px); /* Initially move links off-screen */
+  border-radius: 50px 0 0 50px; /* Rounded left corners */
+  text-align: left;
+  margin: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px;
+  font-size: 22px;
+  font-family: 'Times New Roman', Times, serif;
+  transition: all 0.8s;
+}
+
+/* Hover effects for links */
+.sticky-icon a:hover {
+  color: #FFF; /* Text color on hover */
+  transform: translateX(0); /* Move links into view */
+  
+}
+
+/* Hover effects for icons */
+.sticky-icon a:hover .icon {
+  transform: rotate(360deg); /* Rotate icon on hover */
+  
+}
+
+/* Icon styling */
+.sticky-icon .icon {
+  background-color: #FFF; /* White background for icons */
+  height: 35px; /* Icon size */
+  width: 35px;
+  padding: 3px;
+  color: rgb(235, 14, 14); /* Icon color */
+  text-align: center;
+  line-height: 40px; /* Center icon text */
+  border-radius: 50%;
+  margin-right: 10px; /* Space between icon and text */
+  transition: all 0.5s;
+}
+
+/* Background colors for social media links */
+.Instagram {
+  background-color:red;
+  color: #FFF;
+}
+
+.Facebook {
+  background-color: rgb(58, 58, 252);
+  color: #FFF;
+}
+
+.Google {
+  background-color: brown;
+  color: #FFF;
+}
+
+.Whatsapp {
+  background-color: rgb(5, 197, 5); /* WhatsApp color */
+  color: #FFF;
+}
+
+
+/* Scroll-to-top button styling */
+#myBtn {
+  height: 20px;
+  display: none; /* Initially hidden */
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99; /* Ensure button is above other elements */
+  text-align: center;
+  padding: 1px;
+  border: none;
+  outline: none;
+  background-color: #1e88e5; /* Button color */
+  color: white;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Darker color on hover */
+}
+
+.fas.fa-arrow-circle-up {
+  font-size: 20px; /* Size of the icon */
+}

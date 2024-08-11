@@ -1,0 +1,406 @@
+.portfolio {
+  margin-top: 200px;
+}
+
+.tech:hover {
+  border-top: 5px rgb(172, 2, 172) solid;
+  border-bottom: 5px aqua solid;
+  border-radius: 50px;
+}
+
+.tech1:hover {
+  border-top: 5px aqua solid;
+  border-bottom: 5px aqua solid;
+  border-radius: 50px;
+}
+
+.head3 {
+  color: white;
+  text-shadow: 0 0 5px black;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  padding: 20px;
+  font-weight: bolder;
+  margin-top: 20px;
+  letter-spacing: 3px;
+  background-color: #5405e7;
+  border-left: 7px white solid;
+  border-right: 7px white solid;
+  border-radius: 100px;
+  width: 300px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 355px;
+}
+
+.skill {
+  padding: 5px;
+  font-size: 19px;
+  color: white;
+  font-weight: bolder;
+  text-align: justify;
+}
+
+progress[value] {
+  display: block;
+  width: 100%;
+  height: 13px;
+  background-color: blue;
+  border-radius: 10px;
+}
+
+progress::-webkit-progress-bar {
+  background-color: rgba(173, 4, 179, 0.63);
+  border: 2px solid aqua;
+  border-radius: 20px;
+}
+
+progress::-webkit-progress-value {
+  background-color: white;
+  border: 2px solid rgb(173, 4, 179);
+  border-radius: 20px;
+}
+
+.head4,
+.head5,
+.head6 {
+  text-shadow: 0 0 10px whitesmoke;
+  border-top: 3px aqua solid;
+  border-bottom: 3px aqua solid;
+  border-radius: 100px;
+  color: white;
+  font-size: 18px;
+  font-weight: bolder;
+  padding: 10px;
+  margin-top: 30px;
+  position: relative;
+}
+
+.head4 {
+  font-size: 18px;
+  text-align: center;
+}
+
+.head5 {
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+.head6 {
+  font-size: 20px;
+  padding-left: 30px;
+  letter-spacing: 2px;
+  top: -10px;
+}
+
+#timeline {
+  position: relative;
+  max-width: 35%;
+  margin: 0 auto;
+  
+}
+
+#timeline::after {
+  content: '';
+  position: absolute;
+  width: 12px;
+  border: 4px solid white;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+}
+
+.hscroll-line {
+  background-color: aqua;
+  height: 20px;
+  position: absolute;
+  overflow: hidden;
+  width: 1300px;
+  transform: rotate(90deg);
+  transform-origin: 50% 50%;
+  left: -423px , auto;
+  margin-left: -424px;
+  top: 963px;
+  border: aqua solid 2px;
+}
+
+.hscroll-line::before,
+.hscroll-line::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: "";
+}
+
+.hscroll-line:before {
+  background: #f3efef3b;
+  animation: move 3s infinite;
+}
+
+.hscroll-line::after {
+  background-color: white;
+  animation: move 3s linear infinite;
+}
+
+@keyframes move {
+  0% {
+    transform: translate3d(-100%, 0, 0);
+  }
+  60% {
+    transform: translate3d(100%, 0, 0);
+  }
+  100% {
+    transform: translate3d(100%, 0, 0);
+  }
+}
+
+.container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 40%;
+  top: 400px;
+}
+
+.container::after {
+  content: '';
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  right: -60px;
+  background-image: url('C:\Users\user\Desktop\react js\my-app\src\images\iron.gif');
+  background-size: cover;
+  background-position: center;
+  border: 4px solid white;
+  top: 40px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.left {
+  left: -60% ;
+}
+
+.right {
+  
+  left: 55%;
+}
+
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 50px;
+  width: 0;
+  z-index: 1;
+  right: -10px;
+  border: medium solid white;
+  border-width: 15px 0 15px 15px;
+  border-color: transparent transparent transparent white;
+}
+
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 50px;
+  width: 0;
+  z-index: 1;
+  left: -7px;
+  border: medium solid white;
+  border-width: 15px 15px 15px 0;
+  border-color: transparent white transparent transparent;
+}
+
+.right::after {
+  left: -55px;
+}
+
+.content {
+  padding: 20px 20px;
+  background: linear-gradient(
+    219.3deg,
+    rgb(149, 0, 199) 4.7%,
+    rgb(130, 0, 226) 22.9%,
+    rgb(95, 0, 199) 43.2%,
+    rgb(70, 0, 199) 63.9%,
+    rgb(5, 0, 199) 85.1%,
+    rgb(0, 95, 199) 106.8%
+  );
+  position: relative;
+  border-top: 7px white solid;
+  border-bottom: 7px white solid;
+  border-radius: 50px;
+  text-align: center;
+}
+
+.content h2 {
+  text-shadow: 0 0 10px black;
+  color: white;
+  padding: 2px;
+  font-size: 20px;
+}
+
+.content h3 {
+  text-shadow: 0 0 4px black;
+  padding: 2px;
+  color: white;
+  font-size: 18px;
+}
+
+.content p {
+  font-weight: bolder;
+  color: #bbc3c7;
+  padding: 2px;
+}
+
+.content:hover {
+  border-top: 7px aqua solid;
+  border-bottom: 7px aqua solid;
+  border-radius: 50px;
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    width: 90%;
+  }
+
+  .right::before,
+  .left::before {
+    display: none;
+  }
+
+  .container::after {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+    left: 0 !important;
+  }
+
+  .right {
+    left: 0;
+  }
+
+  #timeline::after {
+    left: 20px;
+  }
+
+  .content h2 {
+    font-size: 16px;
+  }
+
+  .content h3 {
+    font-size: 14px;
+  }
+
+  .content p {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .portfolio{
+    margin-top: 50px;
+  }
+  #timeline{
+    margin-top: -230px;
+  }
+  .head6{
+    font-size: 10px;
+  }
+  .head3{
+    position: relative;
+    top: 125px;
+  }
+  #timeline::after {
+    left: 0;
+  }
+
+  .container {
+    width: 100%;
+    left: 0;
+    margin-left: 30px;
+  }
+
+  .container::after {
+    right: 0;
+    left: auto;
+  }
+
+  .right::before,
+  .left::before {
+    display: none;
+  }
+
+  .left::after {
+    left: -21px;
+  }
+
+  .right::after {
+    left: -25px;
+  }
+.head6{
+  padding: 5px;
+}
+  .content h2 {
+    font-size: 12px;
+    padding: 5px;
+  }
+
+  .content h3 {
+    font-size: 13px;
+    padding: 5px;
+  }
+
+  .content p {
+    font-size: 9px;
+    padding: 2px;
+  }
+
+  .content:hover {
+    border-top: 7px aqua solid;
+    border-bottom: 7px aqua solid;
+    border-radius: 50px;
+  }
+
+  .hscroll-line {
+    background-color: aqua;
+    bottom: 30px;
+    left: -130px;
+    top: 865px;
+    margin-left: -200px,auto;
+    height: 13px;
+    position: absolute;
+    overflow: hidden;
+    width: 1100px;
+    transform: rotate(90deg);
+    tranform-origin: 50% 50%;
+  }
+
+  .hscroll-line::before {
+    background: #f3efef3b;
+    animation: move 3s infinite;
+  }
+
+  .hscroll-line::after {
+    background-color: white;
+    animation: move 3s linear infinite;
+  }
+}

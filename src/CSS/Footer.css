@@ -1,0 +1,252 @@
+/* General Footer Section */
+#contact {
+    z-index: 10;
+    background-color: #333; /* Background color for footer */
+    color: white;
+    padding: 20px 10px; /* Added padding for better spacing */
+    box-sizing: border-box;
+    margin-top: 50%;
+}
+
+.inform {
+    float: left;
+    text-align: justify;
+    margin-top: 1%;
+    padding-left: 20px;
+    display: inline;
+
+}
+
+
+footer {
+    width: 100%;
+    background-color: slateblue;
+}
+
+.wish {
+    margin-top: 5%;
+}
+
+/* Contact Section */
+.contact div {
+    height: 150px;
+
+}
+.inform p{
+    text-align: left;
+}
+
+.contact1 {
+    text-decoration: none;
+    color: white;
+    
+    
+}
+
+#contact p {
+    position: relative;
+    
+    padding: 10px;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+}
+
+/* Header Styles */
+.head11 {
+    font-size: 24px; /* Adjust font size */
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+/* Position and Align Header */
+.head2 {
+    font-size: 20px;
+    margin: 10px 0;
+    text-align: center; /* Center header text */
+}
+
+.head8 {
+    color: aliceblue;
+    text-align: center; /* Center text */
+    letter-spacing: 3px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px;
+}
+
+/* Menu Styles */
+.menu1 {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 20px 0; /* Add margin for spacing */
+}
+
+.menu1 li {
+    margin: 0 10px;
+}
+
+.nav2 {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px; /* Padding for better click area */
+}
+
+/* Horizontal Rule */
+.hr {
+    width: 80%; /* Responsive width */
+    max-width: 700px; /* Maximum width */
+    height: 3px;
+    background-color: aqua;
+    margin: 20px auto; /* Center horizontally */
+}
+
+/* Hover Effect on Contact Section */
+#contact:hover {
+    border-top: 5px solid red;
+    border-color: aqua;
+    opacity: 1;
+}
+
+/* Social Media Icons */
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.social-icon {
+    cursor: pointer;
+    margin: 8px;
+    width: 40px;
+    height: 40px;
+    box-sizing: content-box;
+    padding: 10px;
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 50%;
+    transition: background-color 0.5s linear, border-width 0.5s linear, transform 0.5s linear;
+    background-color: #333;
+    color: white;
+}
+
+.social-icon:hover {
+    border-width: 2px;
+    border-color: sandybrown;
+    transform: rotate(360deg);
+}
+
+/* Scroll-to-Top Button */
+.scroll-to-top {
+    position: fixed;
+    bottom: 2px;
+    right: 100px;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    display: none; /* Hidden by default */
+}
+
+.scroll-to-top.show {
+    display: block; /* Show button when scrolled down */
+}
+
+/* Back Button */
+.go-back {
+    background-color: black;
+    color: #fff;
+    border: 1px solid ;
+    border-radius: 100%;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px 0;
+    margin-left: 30px;
+
+}
+
+/* Footer Copy */
+.copy {
+    color: rgb(206, 197, 197);
+    text-align: center; /* Center text */
+    margin-top: 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    #contact{
+        margin-top: 600px;
+        
+    }
+    .inform, .wish {
+        float: none;
+        text-align: center;
+        padding-left: 0;
+    }
+    .inform p{
+        margin-left: 80px;
+    }
+
+    .contact1 {
+        display: block;
+        margin-bottom: 10px;
+        
+    }
+
+    .menu1 {
+        flex-direction: row;
+        
+    }
+
+    .menu1 li {
+        margin: 5px 0;
+    }
+    .head11{
+        margin-left: -30px;
+    }
+
+    .head11, .head2, .head8 {
+        font-size: 20px;
+    }
+
+    .scroll-to-top {
+        bottom: 400px;
+        right: 10px;
+        font-size: 18px;
+    }
+
+    .go-back {
+        font-size: 14px;
+        margin-left: -330px;
+    }
+}
+
+@media (max-width: 480px) {
+    .head11, .head2, .head8 {
+        font-size: 18px;
+    }
+
+    .scroll-to-top, .go-back {
+        font-size: 16px;
+        padding: 8px;
+    }
+
+    .social-media {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .social-icon {
+        width: 35px;
+        height: 35px;
+        font-size: 18px;
+    }
+}

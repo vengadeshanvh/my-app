@@ -1,0 +1,180 @@
+ #prl {
+
+    grid-column: 1 / 1; /* Grid column settings */
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    position: relative;
+    top: 100px; /* Adjusting position */
+    background: linear-gradient(219.3deg, rgb(149, 0, 199) 4.7%, rgb(130, 0, 226) 22.9%, rgb(95, 0, 199) 43.2%, rgb(70, 0, 199) 63.9%, rgb(5, 0, 199) 85.1%, rgb(0, 95, 199) 106.8%);
+    text-align: left;
+    height: 350px; /* Setting height */
+    width: 90%; /* Adjusted for responsiveness */
+    max-width: 1150px;
+    margin: 20px auto; /* Centering and adjusting margins */
+    border-top: 7px white solid;
+    border-bottom: 7px white solid;
+    border-radius: 50px; /* Rounded corners */
+    overflow: hidden;
+}
+
+#prl:hover {
+    border-bottom: 5px solid red; /* Changing border color on hover */
+    border-color: aqua;
+    transition: all 1s ease-in-out; /* Transition effect */
+    opacity: 1; /* Adjusting opacity on hover */
+}
+
+#prl h1 {
+    font-size: 30px;
+    font-weight: bolder;
+    color: white; /* Text color */
+    margin-left: 40px; /* Adjusting margins */
+    margin-top: 20px; /* Adjusting margins */
+}
+
+#prl p {
+    color: white; /* Text color */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: capitalize;
+    padding: 8px;
+    text-align: justify;
+    margin-left: 2%; /* Adjusting margins */
+    margin-top: 10px; /* Adjusting margins */
+    font-size: 13px;
+}
+
+.gif {
+    width: 450px;
+    height: 270px;
+    position: absolute;
+    left:400%;
+    top: 25%;    
+    border-radius: 200px; /* Rounded corners */
+    background-attachment: scroll;
+    border-left: 10px solid rgba(255, 255, 255, 0.842);
+    border-right: 10px solid rgba(255, 255, 255, 0.842);
+}
+
+.img1 {
+    width: 500px;
+    height: 270px;
+    position: relative;
+    left:400%;
+    top: 25%;
+    border-radius: 200px; /* Rounded corners */
+    background-attachment: scroll;
+    opacity: 0;
+}
+
+.img1 {
+    opacity: 0; /* Reset opacity */
+}
+
+.img1:hover {
+    transition: 0.5s; /* Transition effect */
+    opacity: 1; /* Adjusting opacity on hover */
+    border-left: 10px solid aqua;
+    border-right: 10px solid aqua;
+}
+
+.follow {
+    letter-spacing: 1.2px;
+    word-spacing: 1px;
+    color: white;
+    position: relative;
+    top: 20px; /* Adjusted top position */
+    text-align: center; /* Center align text */
+}
+
+.social1, .social12, .social13 {
+    cursor: pointer;
+    margin: 10px;
+    width: 30px; /* Reduced size for better mobile view */
+    height: 30px;
+    box-sizing: content-box;
+    padding: 8px; /* Adjust padding for better icon alignment */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent; /* Start with a transparent background */
+    border: 1px solid transparent; /* Start with a transparent border */
+    border-radius: 50%; /* Use border-radius to create a circular shape */
+}
+
+/* Icon specific styling */
+.social1 {
+    color: #25d366; /* WhatsApp green */
+}
+
+.social12 {
+    color: #3cc4fa; /* Skyblue for email */
+}
+
+.social13 {
+    color: #e4405f; /* Red for Instagram */
+}
+
+/* Hover effects */
+.social1:hover, .social12:hover, .social13:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Light background color on hover */
+    border-color: white; /* White border color on hover */
+    transition: background-color 0.3s ease, border-color 0.3s ease; /* Smooth transition */
+}
+
+/* Media Queries for Mobile */
+@media screen and (max-width: 768px) {
+    #prl {
+        height: auto; /* Let height adjust based on content */
+        padding: 15px; /* Adjust padding for smaller screens */
+    }
+
+    #prl h1 {
+        font-size: 24px; /* Decrease font size for smaller screens */
+        margin-left: 20px; /* Adjust margins */
+        margin-top: 10px;
+    }
+
+    #prl p {
+        font-size: 12px; /* Decrease font size for smaller screens */
+        margin-left: 5%;
+        margin-top: 50%;
+        margin-right: 5%; /* Add right margin for better spacing */
+    }
+
+   .gif {
+        width: 270%;
+        height: 160px;
+        position: absolute;
+        left:-30px;
+        top: 190px;    
+        margin: 10px;
+        border-radius: 200px; /* Rounded corners */
+        background-attachment: scroll;
+        border-left: 10px solid rgba(255, 255, 255, 0.842);
+        border-right: 10px solid rgba(255, 255, 255, 0.842);
+    }
+    
+    .img1 {
+        width: 270%;
+        height: 160px;
+        position: relative;
+        left:-25px;
+        top: 197px;
+        margin: 5px;
+        border-radius: 200px; /* Rounded corners */
+        background-attachment: scroll;
+        opacity: 0;
+    }
+    
+        
+
+    .follow {
+        top: 10px; /* Adjust top position */
+    }
+
+    .social1, .social12, .social13 {
+        width: 25px; /* Reduce icon size for smaller screens */
+        height: 25px;
+        margin-left: 5px; /* Adjust spacing */
+    }
+}
