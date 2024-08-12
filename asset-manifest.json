@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-app/static/css/main.9c49151f.css",
-    "main.js": "/my-app/static/js/main.1e8ba7a0.js",
+    "main.js": "/my-app/static/js/main.30c64f34.js",
     "static/media/1.gif": "/my-app/static/media/1.3a6b9048806bd55621f6.gif",
     "static/media/2.gif": "/my-app/static/media/2.80dc26ee3111e60ea7c9.gif",
     "static/media/iron.gif": "/my-app/static/media/iron.ec801321cf6a831e1823.gif",
@@ -9,10 +9,10 @@
     "static/media/VENGADESHAN_BBA_2021.pdf": "/my-app/static/media/VENGADESHAN_BBA_2021.4e63199217333cbb89be.pdf",
     "index.html": "/my-app/index.html",
     "main.9c49151f.css.map": "/my-app/static/css/main.9c49151f.css.map",
-    "main.1e8ba7a0.js.map": "/my-app/static/js/main.1e8ba7a0.js.map"
+    "main.30c64f34.js.map": "/my-app/static/js/main.30c64f34.js.map"
   },
   "entrypoints": [
     "static/css/main.9c49151f.css",
-    "static/js/main.1e8ba7a0.js"
+    "static/js/main.30c64f34.js"
   ]
 }
