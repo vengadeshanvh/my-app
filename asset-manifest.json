@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.d33304f7.css",
-    "main.js": "/my-app/static/js/main.a79421c6.js",
+    "main.css": "/my-app/static/css/main.dac4f131.css",
+    "main.js": "/my-app/static/js/main.175e1775.js",
     "static/media/1.gif": "/my-app/static/media/1.3a6b9048806bd55621f6.gif",
     "static/media/2.gif": "/my-app/static/media/2.80dc26ee3111e60ea7c9.gif",
     "static/media/iron.gif": "/my-app/static/media/iron.ec801321cf6a831e1823.gif",
     "static/media/h3.png": "/my-app/static/media/h3.87157f50f83cbca1f486.png",
     "static/media/VENGADESHAN_BBA_2021.pdf": "/my-app/static/media/VENGADESHAN_BBA_2021.4e63199217333cbb89be.pdf",
     "index.html": "/my-app/index.html",
-    "main.d33304f7.css.map": "/my-app/static/css/main.d33304f7.css.map",
-    "main.a79421c6.js.map": "/my-app/static/js/main.a79421c6.js.map"
+    "main.dac4f131.css.map": "/my-app/static/css/main.dac4f131.css.map",
+    "main.175e1775.js.map": "/my-app/static/js/main.175e1775.js.map"
   },
   "entrypoints": [
-    "static/css/main.d33304f7.css",
-    "static/js/main.a79421c6.js"
+    "static/css/main.dac4f131.css",
+    "static/js/main.175e1775.js"
   ]
 }
